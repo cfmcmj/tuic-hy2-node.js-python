@@ -127,7 +127,7 @@ print_connection_info() {
     echo "tls:"
     echo "  sni: ${SNI}"
     echo "  alpn: [\"${ALPN}\"]"
-    echo "  allowinsecure: true"
+    echo "  allowInsecure: true"
     echo "socks5:"
     echo "  listen: 127.0.0.1:1080"
     echo "http:"
@@ -147,6 +147,7 @@ main() {
 }
 
 main "$@"
+
 
 
 
